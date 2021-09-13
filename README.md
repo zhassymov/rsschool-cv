@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://zhassymov.github.com/rsschool-cv/cv
+https://zhassymov.github.io/rsschool-cv/cv
