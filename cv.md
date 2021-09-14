@@ -151,7 +151,7 @@ console.log(arrayValue);
 - [Web Application Security, 2021](https://xakep.ru/)
 - [Golang programming, 2020](https://stepik.org/cert/809216)
 - [Introduction to Linux, 2020](https://stepik.org/cert/300369)
-- [Python programming](https://stepik.org/cert/216559)
+- [Python programming, 2019](https://stepik.org/cert/216559)
 - [Professional HTML & CSS, level 1, 2018](https://assets.htmlacademy.ru/certificates/intensive/73/768969.pdf?1605190869&_ga=2.48561574.1272170262.1631629215-1460873961.1613326496)
 
 ## Languages
