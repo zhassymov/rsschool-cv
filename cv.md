@@ -1,6 +1,7 @@
 # Arthur Zhassymov
 
 ## Contacts
+
 phone:  +7 (701) 3877333
 
 ## About
@@ -92,7 +93,7 @@ func main() {
 
 ### Javascript
 
-```js
+```javascript
 function reverseArray(array) {
     let result = [];
     for (let elem of array) result.unshift(elem)
