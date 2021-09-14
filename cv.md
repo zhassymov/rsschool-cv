@@ -15,16 +15,16 @@ I believe that thanks to modern technology, we can make this world a better plac
 
 ## Knowledges and skills
 
-[<img alt="MongoDB" src="https://cdn.svgporn.com/logos/go.svg" style="height: 40px; margin: 10px;"/>](https://golang.org/)
-[<img alt="MongoDB" src="https://cdn.svgporn.com/logos/mongodb.svg" style="height: 40px; margin: 10px;"/>](https://www.mongodb.com/)
-[<img alt="PostgreSQL" src="https://cdn.svgporn.com/logos/postgresql.svg" style="height: 40px; margin: 10px;"/>](https://www.postgresql.org/)
-[<img alt="RabbitMQ" src="https://cdn.svgporn.com/logos/rabbitmq-icon.svg" style="height: 40px; margin: 10px;"/>](https://www.rabbitmq.com/)
-[<img alt="gRPC" src="https://cncf-branding.netlify.app/img/projects/grpc/icon/color/grpc-icon-color.svg" style="height: 40px; margin: 10px;"/>](https://grpc.io/)
-[<img alt="REST" src="https://cdn.svgporn.com/logos/json.svg" style="height: 40px; margin: 10px;"/>](https://en.wikipedia.org/wiki/Representational_state_transfer)
-[<img alt="git" src="https://cdn.svgporn.com/logos/git-icon.svg" style="height: 40px; margin: 10px;"/>](https://git-scm.com/)
-[<img alt="GoLand" src="https://resources.jetbrains.com/storage/products/goland/img/meta/goland_logo_300x300.png" style="height: 40px; margin: 10px;"/>](https://www.jetbrains.com/go/)
-[<img alt="VS Code" src="https://cdn.svgporn.com/logos/visual-studio-code.svg" style="height: 40px; margin: 10px;"/>](https://code.visualstudio.com/)
-[<img alt="Fedora" src="https://cdn.svgporn.com/logos/fedora.svg" style="height: 40px; margin: 10px;"/>](https://getfedora.org/)
+[<img target="_blank" alt="MongoDB" src="https://cdn.svgporn.com/logos/go.svg" style="height: 40px; margin: 10px;"/>](https://golang.org/)
+[<img target="_blank" alt="MongoDB" src="https://cdn.svgporn.com/logos/mongodb.svg" style="height: 40px; margin: 10px;"/>](https://www.mongodb.com/)
+[<img target="_blank" alt="PostgreSQL" src="https://cdn.svgporn.com/logos/postgresql.svg" style="height: 40px; margin: 10px;"/>](https://www.postgresql.org/)
+[<img target="_blank" alt="RabbitMQ" src="https://cdn.svgporn.com/logos/rabbitmq-icon.svg" style="height: 40px; margin: 10px;"/>](https://www.rabbitmq.com/)
+[<img target="_blank" alt="gRPC" src="https://cncf-branding.netlify.app/img/projects/grpc/icon/color/grpc-icon-color.svg" style="height: 40px; margin: 10px;"/>](https://grpc.io/)
+[<img target="_blank" alt="REST" src="https://cdn.svgporn.com/logos/json.svg" style="height: 40px; margin: 10px;"/>](https://en.wikipedia.org/wiki/Representational_state_transfer)
+[<img target="_blank" alt="git" src="https://cdn.svgporn.com/logos/git-icon.svg" style="height: 40px; margin: 10px;"/>](https://git-scm.com/)
+[<img target="_blank" alt="GoLand" src="https://resources.jetbrains.com/storage/products/goland/img/meta/goland_logo_300x300.png" style="height: 40px; margin: 10px;"/>](https://www.jetbrains.com/go/)
+[<img target="_blank" alt="VS Code" src="https://cdn.svgporn.com/logos/visual-studio-code.svg" style="height: 40px; margin: 10px;"/>](https://code.visualstudio.com/)
+[<img target="_blank" alt="Fedora" src="https://cdn.svgporn.com/logos/fedora.svg" style="height: 40px; margin: 10px;"/>](https://getfedora.org/)
 
 ## Learning
 
@@ -33,7 +33,6 @@ I believe that thanks to modern technology, we can make this world a better plac
 [<img alt="Svelte" src="https://cdn.svgporn.com/logos/svelte-icon.svg" style="height: 40px; margin: 10px;"/>](https://svelte.dev/)
 
 ## Code examples
-
 
 <details>
 
@@ -126,6 +125,7 @@ console.log(arrayValue);
 
 </details>
 
+</br>
 
 ## Work experience
 
@@ -142,8 +142,6 @@ console.log(arrayValue);
 - Lawyer
   - September 2009 - May 2021
 
-
-
 ## Education
 
 - [West Kazakhstan State University](https://wku.edu.kz/en/)
@@ -155,6 +153,7 @@ console.log(arrayValue);
   - February 2020 - now
 
 ## Courses & certificates
+
 - [Learning How to Learn, 2021](https://coursera.org/share/60dc31471dcca71e642afd35e2368d77)
 - [Web service development using Golang, 2021](https://coursera.org/share/a4e76bd92e3f3a723d41e280283bad19)
 - [Web Application Security, 2021](https://xakep.ru/)
@@ -164,5 +163,6 @@ console.log(arrayValue);
 - [Professional HTML & CSS, level 1, 2018](https://assets.htmlacademy.ru/certificates/intensive/73/768969.pdf?1605190869&_ga=2.48561574.1272170262.1631629215-1460873961.1613326496)
 
 ## Languages
+
 - Russian, native
 - English, B1
