@@ -1,7 +1,7 @@
 # Arthur Zhassymov
 
 ## Contacts
-:iphone:  +7 (701) 3877333
+phone:  +7 (701) 3877333
 
 ## About
 
@@ -9,22 +9,22 @@ Hi there! I'm a software developer.
   
 I'm interested in developing web applications and services. My commercial development experience started in May 2021.  
 
-I :heart: programming and strive to write high performance, reliable and clean code.
+I __*love*__ programming and strive to write high performance, reliable and clean code.
   
 I believe that thanks to modern technology, we can make this world a better place.
 
 ## Knowledges and skills
 
-[<img target="_blank" alt="MongoDB" src="https://cdn.svgporn.com/logos/go.svg" style="height: 40px; margin: 10px;"/>](https://golang.org/)
-[<img target="_blank" alt="MongoDB" src="https://cdn.svgporn.com/logos/mongodb.svg" style="height: 40px; margin: 10px;"/>](https://www.mongodb.com/)
-[<img target="_blank" alt="PostgreSQL" src="https://cdn.svgporn.com/logos/postgresql.svg" style="height: 40px; margin: 10px;"/>](https://www.postgresql.org/)
-[<img target="_blank" alt="RabbitMQ" src="https://cdn.svgporn.com/logos/rabbitmq-icon.svg" style="height: 40px; margin: 10px;"/>](https://www.rabbitmq.com/)
-[<img target="_blank" alt="gRPC" src="https://cncf-branding.netlify.app/img/projects/grpc/icon/color/grpc-icon-color.svg" style="height: 40px; margin: 10px;"/>](https://grpc.io/)
-[<img target="_blank" alt="REST" src="https://cdn.svgporn.com/logos/json.svg" style="height: 40px; margin: 10px;"/>](https://en.wikipedia.org/wiki/Representational_state_transfer)
-[<img target="_blank" alt="git" src="https://cdn.svgporn.com/logos/git-icon.svg" style="height: 40px; margin: 10px;"/>](https://git-scm.com/)
-[<img target="_blank" alt="GoLand" src="https://resources.jetbrains.com/storage/products/goland/img/meta/goland_logo_300x300.png" style="height: 40px; margin: 10px;"/>](https://www.jetbrains.com/go/)
-[<img target="_blank" alt="VS Code" src="https://cdn.svgporn.com/logos/visual-studio-code.svg" style="height: 40px; margin: 10px;"/>](https://code.visualstudio.com/)
-[<img target="_blank" alt="Fedora" src="https://cdn.svgporn.com/logos/fedora.svg" style="height: 40px; margin: 10px;"/>](https://getfedora.org/)
+[<img alt="MongoDB" src="https://cdn.svgporn.com/logos/go.svg" style="height: 40px; margin: 10px;"/>](https://golang.org/)
+[<img alt="MongoDB" src="https://cdn.svgporn.com/logos/mongodb.svg" style="height: 40px; margin: 10px;"/>](https://www.mongodb.com/)
+[<img alt="PostgreSQL" src="https://cdn.svgporn.com/logos/postgresql.svg" style="height: 40px; margin: 10px;"/>](https://www.postgresql.org/)
+[<img alt="RabbitMQ" src="https://cdn.svgporn.com/logos/rabbitmq-icon.svg" style="height: 40px; margin: 10px;"/>](https://www.rabbitmq.com/)
+[<img alt="gRPC" src="https://cncf-branding.netlify.app/img/projects/grpc/icon/color/grpc-icon-color.svg" style="height: 40px; margin: 10px;"/>](https://grpc.io/)
+[<img alt="REST" src="https://cdn.svgporn.com/logos/json.svg" style="height: 40px; margin: 10px;"/>](https://en.wikipedia.org/wiki/Representational_state_transfer)
+[<img alt="git" src="https://cdn.svgporn.com/logos/git-icon.svg" style="height: 40px; margin: 10px;"/>](https://git-scm.com/)
+[<img alt="GoLand" src="https://resources.jetbrains.com/storage/products/goland/img/meta/goland_logo_300x300.png" style="height: 40px; margin: 10px;"/>](https://www.jetbrains.com/go/)
+[<img alt="VS Code" src="https://cdn.svgporn.com/logos/visual-studio-code.svg" style="height: 40px; margin: 10px;"/>](https://code.visualstudio.com/)
+[<img alt="Fedora" src="https://cdn.svgporn.com/logos/fedora.svg" style="height: 40px; margin: 10px;"/>](https://getfedora.org/)
 
 ## Learning
 
@@ -34,9 +34,7 @@ I believe that thanks to modern technology, we can make this world a better plac
 
 ## Code examples
 
-<details>
-
-<summary>Golang</summary>
+### Golang
 
 ```go
 package main
@@ -91,11 +89,8 @@ func main() {
 }
 
 ```
-</details>
 
-<details>
-
-<summary>Javascript</summary>
+### Javascript
 
 ```js
 function reverseArray(array) {
@@ -122,10 +117,6 @@ reverseArrayInPlace(arrayValue);
 console.log(arrayValue);
 // [5, 4, 3, 2, 1]
 ```
-
-</details>
-
-</br>
 
 ## Work experience
 
@@ -155,7 +146,7 @@ console.log(arrayValue);
 ## Courses & certificates
 
 - [Learning How to Learn, 2021](https://coursera.org/share/60dc31471dcca71e642afd35e2368d77)
-- [Web service development using Golang, 2021](https://coursera.org/share/a4e76bd92e3f3a723d41e280283bad19)
+- [Web services development with Golang, 2021](https://coursera.org/share/a4e76bd92e3f3a723d41e280283bad19)
 - [Web Application Security, 2021](https://xakep.ru/)
 - [Golang programming, 2020](https://stepik.org/cert/809216)
 - [Introduction to Linux, 2020](https://stepik.org/cert/300369)
