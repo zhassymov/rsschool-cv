@@ -1,0 +1,18 @@
+.wrapper {
+    padding: 0 calc(50% - 590px);
+}
+
+.clear-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tech {
+    height: 40px; 
+    margin: 10px;
+}
+
+.techs {
+    display: flex;
+    flex-wrap: wrap;
+}

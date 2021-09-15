@@ -5,11 +5,340 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+
     <title>CV</title>
 </head>
 
 <body>
+    <div class="wrapper">
 
+        <article>
+
+            <h1>Arthur Zhassymov</h1>
+
+            <section>
+                <h2>Contacts</h2>
+                <p><b>phone:</b> +7 (701) 3877333</p>
+            </section>
+
+            <section>
+
+                <h2>About</h2>
+
+                <p>
+                    Hi there! I'm a software developer.
+
+                    I'm interested in developing web applications and services. My commercial development experience
+                    started in May 2021.
+
+                    I <b><i>love</i></b> programming and strive to write high performance, reliable and clean code.
+
+                    I believe that thanks to modern technology, we can make this world a better place.
+                </p>
+            </section>
+
+            <section>
+
+                <h2>Knowledges and skills</h2>
+
+                <ul class="clear-list techs">
+
+                    <li>
+                        <a href="https://golang.org/" target="_blank">
+                            <img class="tech" alt="Golalang programming language"
+                                src="https://cdn.svgporn.com/logos/go.svg" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.mongodb.com/" target="_blank">
+                            <img class="tech" alt="MongoDB" src="https://cdn.svgporn.com/logos/mongodb.svg" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.postgresql.org/" target="_blank">
+                            <img class="tech" alt="PostgreSQL" src="https://cdn.svgporn.com/logos/postgresql.svg" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.rabbitmq.com/" target="_blank">
+                            <img class="tech" alt="RabbitMQ" src="https://cdn.svgporn.com/logos/rabbitmq-icon.svg" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://grpc.io/" target="_blank">
+                            <img class="tech" alt="gRPC"
+                                src="https://cncf-branding.netlify.app/img/projects/grpc/icon/color/grpc-icon-color.svg" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank">
+                            <img class="tech" alt="REST API" src="https://cdn.svgporn.com/logos/json.svg" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://git-scm.com/" target="_blank">
+                            <img class="tech" alt="git" src="https://cdn.svgporn.com/logos/git-icon.svg" />
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="https://www.jetbrains.com/go/" target="_blank">
+                            <img class="tech" alt="GoLand IDE"
+                                src="https://resources.jetbrains.com/storage/products/goland/img/meta/goland_logo_300x300.png" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://code.visualstudio.com/" target="_blank">
+                            <img class="tech" alt="Visual Studio Code IDE"
+                                src="https://cdn.svgporn.com/logos/visual-studio-code.svg" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://getfedora.org/" target="_blank">
+                            <img class="tech" alt="Fedora Linux" src="https://cdn.svgporn.com/logos/fedora.svg" />
+                        </a>
+                    </li>
+
+                </ul>
+
+
+
+            </section>
+
+            <section>
+
+                <h2>Learning</h2>
+                <ul class="clear-list techs">
+
+                    <li>
+                        <a href="https://html.spec.whatwg.org/" target="_blank">
+                            <img class="tech" alt="HyperText Markup Language"
+                                src="https://cdn.svgporn.com/logos/html-5.svg" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.w3.org/Style/CSS/" target="_blank">
+                            <img class="tech" alt="Cascading Style Sheets"
+                                src="https://cdn.svgporn.com/logos/css-3.svg" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"
+                            target="_blank">
+                            <img class="tech" alt="Javascript programming language"
+                                src="https://cdn.svgporn.com/logos/javascript.svg" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://reactjs.org/" target="_blank">
+                            <img class="tech" alt="React is a JavaScript library for building user interfaces"
+                                src="https://cdn.svgporn.com/logos/react.svg" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://svelte.dev/" target="_blank">
+                            <img class="tech" alt="Svelte is a free and open-source front end compiler"
+                                src="https://cdn.svgporn.com/logos/svelte-icon.svg" />
+                        </a>
+                    </li>
+
+                </ul>
+
+            </section>
+
+            <section>
+
+                <h2>Code examples</h2>
+
+                <details>
+
+                    <summary>Golang</summary>
+
+                    <pre>
+                             <code>
+package main
+
+import (
+    "fmt"
+    "sort"
+    "strconv"
+    "strings"
+)
+
+func Counter(s string) string {
+    if len(s) == 0 {
+        return ""
+    }
+
+    entries := make(map[rune]int)
+
+    for _, char := range []rune(s) {
+        entries[char]++
+    }
+
+    chars := make([]string, 0, len(entries))
+
+    for char := range entries {
+        chars = append(chars, string(char))
+    }
+
+    sort.Strings(chars)
+
+    result := make([]string, 0, len(chars)*2)
+    for _, str := range chars {
+        char := []rune(str)[0]
+        result = append(result, str, strconv.Itoa(entries[char]))
+    }
+
+    return strings.Join(result, "")
+}
+
+func main() {
+    tests := []string{
+        "aaabbbccccc",
+        "aaabbbcccccaaaaa",
+        "zzzzcccUUUuu",
+        "ЯЯЯБББддд",
+        "a",
+    }
+
+    for _, test := range tests {
+        fmt.Println(test, Counter(test))
+    }
+}
+                        </code>
+                    </pre>
+
+                </details>
+
+                <details>
+
+                    <summary>Javascript</summary>
+
+                    <pre>
+                            <code>
+function reverseArray(array) {
+    let result = [];
+    for (let elem of array) result.unshift(elem)
+    return result;
+}
+
+function reverseArrayInPlace(array) {
+    for (let i = 0; i < Math.floor(array.length / 2); i++) {
+        let temp = array[i]
+        array[i] = array[array.length - 1 - i]
+        array[array.length - 1 - i] = temp;
+    }
+}
+
+
+console.log(reverseArray(["A", "B", "C"]));
+// ["C", "B", "A"];
+
+let arrayValue = [1, 2, 3, 4, 5];
+reverseArrayInPlace(arrayValue);
+console.log(arrayValue);
+// [5, 4, 3, 2, 1]
+                        </code>
+                    </pre>
+
+                </details>
+
+            </section>
+
+            <section>
+
+                <h2>Work experience</h2>
+
+                <h3>Technodom Operator, JSC</h3>
+
+                <p><b>Golang Developer</b></p>
+                <p>May 2021 - now</p>
+                <p>Technology Stack:</p>
+                <ul>
+                    <li>Golang</li>
+                    <li>MongoDB</li>
+                    <li>Microservice Architecture</li>
+                    <li>gRPC</li>
+                    <li>RabbitMQ</li>
+                </ul>
+
+                <h3>Lawyer</h3>
+                <p>September 2009 - May 2021</p>
+
+            </section>
+
+            <section>
+
+                <h2>Education</h2>
+
+                <h3><a href="https://wku.edu.kz/en/">West Kazakhstan State University</a></h3>
+                <p><b>Bachelor of Laws</b></p>
+                <p>2005 - 2009</p>
+
+                <h3><a href="https://alem.school/">alem</a></h3>
+                <p><b>Fullstack Developer</b></p>
+                <p>February 2020 - now</p>
+
+
+            </section>
+
+            <section>
+
+                <h2>Courses & certificates</h2>
+
+                <ul class="clear-list">
+                    <li><a href="https://coursera.org/share/60dc31471dcca71e642afd35e2368d77">
+                            Learning How to Learn, 2021</a></li>
+                    <li><a href="https://coursera.org/share/a4e76bd92e3f3a723d41e280283bad19">
+                            Web services development with Golang, 2021</a></li>
+                    <li><a href="https://xakep.ru/">Web Application Security</a></li>
+                    <li><a href="https://stepik.org/cert/809216">Golang programming, 2020</a></li>
+                    <li><a href="https://stepik.org/cert/300369">Introduction to Linux, 2020</a></li>
+                    <li><a href="https://stepik.org/cert/216559">Python programming, 2019</a></li>
+                    <li><a
+                            href="https://assets.htmlacademy.ru/certificates/intensive/73/768969.pdf?1605190869&_ga=2.48561574.1272170262.1631629215-1460873961.1613326496">
+                            Professional HTML & CSS, level 1, 2018</a></li>
+                </ul>
+
+            </section>
+
+            <section>
+
+                <h2>Languages</h2>
+                <ul class="clear-list">
+                    <li>Russian: native</li>
+                    <li>English: B1</li>
+                </ul>
+
+            </section>
+
+        </article>
+
+        <footer>
+            <p>2021</p>
+            <a href="https://rs.school/js/">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="The Rolling Scopes school logo" width=8%>
+            </a>
+        </footer>
+
+    </div>
 </body>
 
 </html>
