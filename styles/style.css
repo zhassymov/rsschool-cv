@@ -1,11 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+
+body {
+    background-color: whitesmoke;
+    font-family: monospace, "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 0 0 7px;
+    font-size: 48px;
+}
+
+.qualification {
+    margin: 0;
+}
+
+h2, .qualification {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+h2 {
+    margin: 30px 0 10px;
+    padding: 10px 0;
+}
+
+h2::before {
+    background-color: red;
+    content: "";
+    padding-right: 7px;
+    margin-right: 7px;
+    margin-left: -14px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    filter: grayscale(100%);
+}
+
+a:hover {
+    color: red;
+    filter: grayscale(0%);
+    transition: 0.4s;
+}
+
+
+
+li {
+    margin-top: 5px;
+}
+
 .wrapper {
-    padding: 0 calc(50% - 590px);
+    background-color: white;
+    box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.2);
+    margin: 40px calc(50% - 590px);
+}
+
+.content {
+    display: flex;
+}
+
+.general, .details, .code-examples {
+    padding: 80px;
+}
+
+.general {
+    border-right: 1px solid red;
+}
+
+.avatar {
+    border-radius: 10%;
 }
 
 .clear-list {
     list-style-type: none;
     padding: 0;
 }
+
+
 
 .tech {
     height: 40px; 
@@ -15,4 +94,30 @@
 .techs {
     display: flex;
     flex-wrap: wrap;
+}
+
+.code {
+    background-color: rgb(19, 19, 71);
+    color: white;
+    padding: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 40px 80px;
+    background-color: red;
+}
+
+.footer .github {
+    display: block;
+    width: 50px;
+    background: no-repeat center/100% url('https://cdn.svgporn.com/logos/github-icon.svg');
+    border-radius: 50%;
+}
+
+.footer .rs-school {
+    display: block;
+    width: 100px;
 }
